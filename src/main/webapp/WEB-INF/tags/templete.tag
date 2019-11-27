@@ -104,18 +104,6 @@
             <jsp:invoke fragment="body_area"/>
 
             <div class="push"></div>
-
-            <!-- Page Footer-->
-            <footer class="main-footer bg-white has-shadow">
-                <div class="container-fluid">
-                    <div class="row ">
-                        <div class="col-sm-12 text-center">
-                            <p>Theme by <a href="https://bootstrapious.com/" target="_blank">BootStrapious</a> and App Deployed by <a href="https://github.com/ParveenBhadooOfficial/Bhadoo-Cloud-Drive" target="_blank">Parveen Bhadoo</a></p>
-                            <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </div>
     </div>
 </div>
