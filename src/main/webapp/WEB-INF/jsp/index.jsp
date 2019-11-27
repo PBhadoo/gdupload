@@ -17,7 +17,7 @@
                 	<div class="col-xl-12" style="text-align:center">
 	                    <c:choose>
 	                        <c:when test='${empty(user)}'>
-	                            <p style="font-size: 20px; color: red">You are not authenticated. Please authenticate using your Google Account.</p>
+	                            <p style="font-size: 10px; color: black">Upload Files from URLs to your own Google Drive</p>
 					<img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" title="Sign in with Google" onclick="location.href = '${pageContext.request.contextPath}/api/oauth/google/redirect'">
 	                        </c:when>
                         	<c:otherwise>	                         
