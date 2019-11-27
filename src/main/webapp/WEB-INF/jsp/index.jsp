@@ -23,7 +23,7 @@
 	                        </c:when>
                         	<c:otherwise>	                         
                         		<p style="font-size: 20px; color: green">Hi, <c:out value="${user.name}" default="Guest" />. </p>   
-	                            <p style="font-size: 15px; color: green; word-wrap:break-word">Congratulations! You are successfully authenticated with Google using your Google account: <c:out value="${user.email}"/>. </p>
+	                            <p style="font-size: 15px; color: green; word-wrap:break-word">Congratulations! You are successfully authenticated using your Google account: <c:out value="${user.email}"/>. </p>
                                  <button id="auth-btn" class="btn btn-link btn-responsive" style="font-size: larger;" onclick="location.href = '${pageContext.request.contextPath}/new_upload'">
                                      Click here to upload Files to your drive.
                                  </button><br>
