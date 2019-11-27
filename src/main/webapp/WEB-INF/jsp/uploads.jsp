@@ -25,7 +25,7 @@
 
         <ul class="breadcrumb">
             <div class="container-fluid">
-                <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
                 <li class="breadcrumb-item active">Your Uploads</li>
             </div>
         </ul>
