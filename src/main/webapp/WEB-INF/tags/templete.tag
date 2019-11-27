@@ -58,7 +58,7 @@
                     </div>
                     <!-- Navbar Menu -->
                     <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
-                        <li class="nav-item"><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive" target="_blank">Open Source</a></li>
+                        <li class="nav-item"><a href="https://github.com/ParveenBhadooOfficial/Bhadoo-Cloud-Drive" target="_blank">Open Source</a></li>
                     </ul>
                 </div>
             </div>
@@ -71,7 +71,7 @@
             <div class="sidebar-header d-flex align-items-center">
                 <c:choose>
                     <c:when test='${empty(user)}'>
-                        <div class="avatar"><img src="${pageContext.request.contextPath}/img/guest.png" alt="..."
+                        <div class="avatar"><img src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/img/guest.png" alt="Guest"
                                                  class="img-fluid rounded-circle"></div>
                         <div class="title">
                             <p>Welcome</p>
@@ -110,7 +110,7 @@
                 <div class="container-fluid">
                     <div class="row ">
                         <div class="col-sm-12 text-center">
-                            <p>Theme by <a href="https://bootstrapious.com/" target="_blank">BootStrapious</a> and App Deployed by <a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive" target="_blank">Parveen Bhadoo</a></p>
+                            <p>Theme by <a href="https://bootstrapious.com/" target="_blank">BootStrapious</a> and App Deployed by <a href="https://github.com/ParveenBhadooOfficial/Bhadoo-Cloud-Drive" target="_blank">Parveen Bhadoo</a></p>
                             <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
                         </div>
                     </div>
