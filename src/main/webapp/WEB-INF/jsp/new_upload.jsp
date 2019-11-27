@@ -6,11 +6,11 @@
   To change this template use File | Settings | File Templates.
 --%>
 
-<%@ taglib prefix="c" uri="https://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <%@taglib prefix="ui" tagdir="/WEB-INF/tags" %>
 
-<ui:templete title="Welcome to Save to Drive">
+<ui:templete>
     <jsp:attribute name="head_area"/>
     <jsp:attribute name="body_area">
         <ul class="breadcrumb">
