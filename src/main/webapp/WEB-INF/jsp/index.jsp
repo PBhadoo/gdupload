@@ -26,6 +26,9 @@
                                  <button id="auth-btn" class="btn btn-link btn-responsive" style="font-size: larger;" onclick="location.href = '${pageContext.request.contextPath}/api/oauth/google/redirect'">
                                      Click here to change Google account
                                  </button>
+					<button id="auth-btn" class="btn btn-link btn-responsive" style="font-size: larger;" onclick="location.href = '${pageContext.request.contextPath}/new_upload'">
+                                     Click here to upload Files to your drive.
+                                 </button>
 	                        </c:otherwise>
 	                    </c:choose>
                     </div>
