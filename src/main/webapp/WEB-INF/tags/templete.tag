@@ -1,4 +1,4 @@
-<%@ taglib prefix="c" uri="https://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="https://www.springframework.org/tags" %>
 <%@tag description="The template for the front-end" pageEncoding="UTF-8" %>
 
