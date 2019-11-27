@@ -1,12 +1,10 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@tag description="The template for the front-end" pageEncoding="UTF-8" %>
-
 <%-- The list of normal or fragment attributes can be specified here: --%>
 <%@attribute name="head_area" fragment="true" %>
 <%@attribute name="body_area" fragment="true" required="true" %>
 <%@attribute name="javascript" fragment="true" %>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,13 +94,13 @@
                     </c:otherwise>
                 </c:choose>
             </div>
-            <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
+            <!-- Sidebar Navidation Menus --><span class="heading">Main</span>
             <ul class="list-unstyled">
                 <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
                 <li><a href="/new_upload"><i class="fa fa-cloud-upload"></i>New Upload</a></li>
                 <li><a href="/uploads"> <i class="fa fa-tachometer"></i>Your Uploads</a></li>
-                <li><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive/issues"> <i class="fa fa-thumbs-o-up"></i>Suggest an Idea</a></li>
-                <li><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive/issues"> <i class="fa fa-bug"></i>Report a Bug</a></li>
+                <!-- <li><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive/issues"> <i class="fa fa-thumbs-o-up"></i>Suggest an Idea</a></li> -->
+                <!-- <li><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive/issues"> <i class="fa fa-bug"></i>Report a Bug</a></li> -->
                 <li><a href="https://hashhackers.com/contact"> <i class="fa fa-envelope-o "></i>Contact</a></li>
             </ul>
         </nav>
