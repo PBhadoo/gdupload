@@ -3,7 +3,6 @@
 <%@tag description="The template for the front-end" pageEncoding="UTF-8" %>
 
 <%-- The list of normal or fragment attributes can be specified here: --%>
-<%@attribute name="title" %>
 <%@attribute name="head_area" fragment="true" %>
 <%@attribute name="body_area" fragment="true" required="true" %>
 <%@attribute name="javascript" fragment="true" %>
