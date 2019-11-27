@@ -49,9 +49,9 @@
                     <!-- Navbar Header-->
                     <div class="navbar-header">
                         <!-- Navbar Brand --><a href="/" class="navbar-brand">
-                        <div class="brand-text brand-big hidden-lg-down"><span>Save to</span> <strong>Drive</strong>
+                        <div class="brand-text brand-big hidden-lg-down"><span>Bhadoo Cloud</span> <strong>Drive</strong>
                         </div>
-                        <div class="brand-text brand-small"><strong>SD</strong></div>
+                        <div class="brand-text brand-small"><strong>BCD</strong></div>
                     </a>
                         <!-- Toggle Button--><a id="toggle-btn" href="#"
                                                 class="menu-btn active"><span></span><span></span><span></span></a>
