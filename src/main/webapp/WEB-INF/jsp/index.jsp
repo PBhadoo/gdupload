@@ -8,7 +8,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <%@taglib prefix="ui" tagdir="/WEB-INF/tags" %>
 
-<ui:templete title="Welcome to Save to Drive">
+<ui:templete>
     <jsp:attribute name="head_area"/>
     <jsp:attribute name="body_area">
         <section class="dashboard-counts no-padding-bottom center">
