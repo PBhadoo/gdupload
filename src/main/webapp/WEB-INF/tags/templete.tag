@@ -58,7 +58,14 @@
                     </div>
                     <!-- Navbar Menu -->
                     <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
-                        <li class="nav-item"><a href="https://github.com/ParveenBhadooOfficial/Bhadoo-Cloud-Drive" target="_blank">Open Source</a></li>
+                    <c:choose>
+	                    <c:when test='${empty(user)}'>
+                        <li class="nav-item"><a href="/api/oauth/google/redirect" target="_blank">Login</a></li>
+                        </c:when>
+                        <c:otherwise>	
+                        <li class="nav-item"><a href="/api/oauth/google/redirect" target="_blank">Switch User</a></li>
+                        </c:otherwise>
+	                </c:choose>
                     </ul>
                 </div>
             </div>
