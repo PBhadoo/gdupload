@@ -1,9 +1,3 @@
-<%-- 
-    Document   : templete
-    Created on : 15 Jun, 2017, 6:48:42 AM
-    Author     : Dhaval
---%>
-
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@tag description="The template for the front-end" pageEncoding="UTF-8" %>
@@ -48,7 +42,7 @@
                 <div class="navbar-holder d-flex align-items-center justify-content-between">
                     <!-- Navbar Header-->
                     <div class="navbar-header">
-                        <!-- Navbar Brand --><a href="index.html" class="navbar-brand">
+                        <!-- Navbar Brand --><a href="/" class="navbar-brand">
                         <div class="brand-text brand-big hidden-lg-down"><span>Save to</span> <strong>Drive</strong>
                         </div>
                         <div class="brand-text brand-small"><strong>SD</strong></div>
@@ -93,7 +87,7 @@
             </div>
             <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
             <ul class="list-unstyled">
-                <li><a href="${pageContext.request.contextPath}"><i class="icon-home"></i>Home</a></li>
+                <li><a href="${pageContext.request.contextPath}"><i class="fa fa-home"></i>Home</a></li>
                 <li><a href="${pageContext.request.contextPath}/new_upload"><i class="fa fa-cloud-upload"></i>New upload</a></li>
                 <li><a href="${pageContext.request.contextPath}/uploads"> <i class="fa fa-tachometer"></i>Your Uploads </a></li>
                 <li><a href="${pageContext.request.contextPath}/suggest_an_idea"> <i class="fa fa-thumbs-o-up"></i>Suggest an Idea</a></li>
@@ -112,7 +106,7 @@
                 <div class="container-fluid">
                     <div class="row ">
                         <div class="col-sm-12 text-center">
-                            <p>Design by Dhaval Mehta and Aditya Krishnakumar</p>
+                            <p>Theme by <a href="https://bootstrapious.com/">BootStrapious</a> and App Deployed by <a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive">Parveen Bhadoo</a></p>
                             <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
                         </div>
                     </div>
