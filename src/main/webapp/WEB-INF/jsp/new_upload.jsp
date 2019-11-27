@@ -10,7 +10,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <%@taglib prefix="ui" tagdir="/WEB-INF/tags" %>
 
-<ui:templete title="Bhadoo Cloud - Upload to Google Drive">
+<ui:templete>
     <jsp:attribute name="head_area"/>
     <jsp:attribute name="body_area">
         <ul class="breadcrumb">
