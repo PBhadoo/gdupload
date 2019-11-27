@@ -60,10 +60,10 @@
                     <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
                     <c:choose>
 	                    <c:when test='${empty(user)}'>
-                        <li class="nav-item"><a href="/api/oauth/google/redirect" target="_blank">Login</a></li>
+                        <li class="nav-item"><a href="/api/oauth/google/redirect">Login</a></li>
                         </c:when>
                         <c:otherwise>	
-                        <li class="nav-item"><a href="/api/oauth/google/redirect" target="_blank">Switch User</a></li>
+                        <li class="nav-item"><a href="/api/oauth/google/redirect">Switch User</a></li>
                         </c:otherwise>
 	                </c:choose>
                     </ul>
