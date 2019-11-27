@@ -47,7 +47,8 @@
                     <!-- Navbar Header-->
                     <div class="navbar-header">
                         <!-- Navbar Brand --><a href="/" class="navbar-brand">
-                        <div class="brand-text brand-big hidden-lg-down"><span>Bhadoo Cloud</span> <strong>Drive</strong>
+                        <div class="brand-text brand-big hidden-lg-down">
+			<img border="0" alt="Bhadoo Cloud" src="https://cdn.jsdelivr.net/gh/jscdn/svg@1.0.1/bhadoo-cloud-logo.svg" height="30px">
                         </div>
                         <div class="brand-text brand-small"><strong>BCD</strong></div>
                     </a>
@@ -58,7 +59,9 @@
                     <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
                     <c:choose>
 	                    <c:when test='${empty(user)}'>
-                        <li class="nav-item"><a href="/api/oauth/google/redirect">Login</a></li>
+                        <li class="nav-item">
+			<img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" title="Sign in with Google" onclick="location.href = '/api/oauth/google/redirect'">
+			</li>
                         </c:when>
                         <c:otherwise>	
                         <li class="nav-item"><a href="/api/oauth/google/redirect">Switch User</a></li>
