@@ -4,11 +4,11 @@
     Author     : Dhaval
 --%>
 
-<%@ taglib prefix="c" uri="https://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <%@taglib prefix="ui" tagdir="/WEB-INF/tags" %>
 
-<ui:templete title="Save2Drive - Home">
+<ui:templete>
 
     <jsp:attribute name="head_area">
 
