@@ -36,6 +36,24 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
     <jsp:invoke fragment="head_area"/>
+    <style>
+    .g-login:hover { content: url('https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_dark_focus_web.png'); }
+        .gbii {
+    background-image: url(${user.profilePhotoUrl});
+    }
+    .gb_Ea {
+    -webkit-background-size: 32px 32px;
+    background-size: 32px 32px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+    }</style>
 </head>
 <body>
 <div class="page home-page">
@@ -60,7 +78,7 @@
                     <c:choose>
 	                    <c:when test='${empty(user)}'>
                         <li class="nav-item">
-			<img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" title="Sign in with Google" onclick="location.href = '/api/oauth/google/redirect'">
+			<img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="location.href = '/api/oauth/google/redirect'">
 			</li>
                         </c:when>
                         <c:otherwise>	
