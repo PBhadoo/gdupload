@@ -21,4 +21,4 @@ Before you deploy follow the above steps or it won't work.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-Source: https://github.com/ParveenBhadooOfficial/cloud-transfer-backend
+Source: https://github.com/cloud-transfer/cloud-transfer-backend
