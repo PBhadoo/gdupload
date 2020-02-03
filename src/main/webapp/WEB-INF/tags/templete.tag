@@ -13,6 +13,7 @@
     <title>Bhadoo Cloud - Upload to Google Drive</title>
     <meta name="description" content="Upload Files using URL to Google Drive the easy way.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="ReTB1LPGTaMBFG8EIW7EoAIXcr3QKu-RibNeVm7WkeM" />
     <meta name="robots" content="all,follow">
     <link rel=apple-touch-icon href="//cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.10/icons/apple-touch-icon.png"/>
     <link rel="shortcut icon" href="//cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.10/icons/apple-touch-icon.png"/>
