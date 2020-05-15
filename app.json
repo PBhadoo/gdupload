@@ -5,15 +5,15 @@
     "logo": "https://raw.githubusercontent.com/ParveenBhadooOfficial/SaveToGoogleDrive/master/src/main/resources/static/img/savetodrive.png",
     "keywords": ["google","drive","bhadoo","bhadoo cloud"],
     "env": {
-        "client_id": {
+        "client_id": "29163138686-6neioodnr2m04i57l3rfu6vuvs44bcmq.apps.googleusercontent.com" {
             "description": "Client ID from Google Console (http://bit.ly/37ED7dv)",
             "value": "58094879805-jdsomen2duv9ilj81fcu1qkag5todele.apps.googleusercontent.com"
         },
-        "client_secret": {
+        "client_secret": "fd8ofG8abMDsoj_DsPDJLr0p" {
             "description": "Client Secret from Google Console (http://bit.ly/37ED7dv)",
             "value": "EG0OYdjcllAGJ81eEMpQ3vW6"
         },
-        "redirect_uri": {
+        "redirect_uri":"https://cloud-website256.herokuapp.com/api/oauth/google/callback"{
             "description": "Your App URL eg. https://app.example.com/api/oauth/google/callback (Replace this with your own)",
             "value": "https://bhadooclouduploader.herokuapp.com/api/oauth/google/callback"
         }
