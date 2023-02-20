@@ -18,14 +18,14 @@ Save Files from URL to Google Drive
 ## Deploy to Ubuntu
 
 * Use your own Client Credentials if you're deploying it, or it won't work.
-* git clone https://github.com/PBhadoo/gdupload app
-* cd app
-* chmod +x mvnw
-* export client_id=58094879805-jdsomen2duv9ilj81fcu1qkag5todele.apps.googleusercontent.com
-* export client_secret=EG0OYdjcllAGJ81eEMpQ3vW6
-* export redirect_uri=https://gdupload.hashhackers.com/api/oauth/google/callback
-* tmux new -s 1
-* ./mvnw package
-* ./mvnw spring-boot:run
+* `git clone https://github.com/PBhadoo/gdupload app`
+* `cd app`
+* `chmod +x mvnw`
+* `export client_id=58094879805-jdsomen2duv9ilj81fcu1qkag5todele.apps.googleusercontent.com`
+* `export client_secret=EG0OYdjcllAGJ81eEMpQ3vW6`
+* `export redirect_uri=https://gdupload.hashhackers.com/api/oauth/google/callback`
+* `tmux new -s 1`
+* `./mvnw package`
+* `./mvnw spring-boot:run`
 
 Source: https://github.com/cloud-transfer/cloud-transfer-backend
