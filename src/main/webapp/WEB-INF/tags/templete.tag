@@ -22,11 +22,11 @@
     <link rel=icon type="image/png" sizes=16x16 href="//cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.14/icons/favicon-16x16.png">
     <link rel=mask-icon href="//cdn.jsdelivr.net/gh/jscdn/images@1.0.1/PBG_Corporation_Owner_Profile.svg" color="#5bbad5">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PBhadoo/gdupload/src/main/resources/static/css/bootstrap.min.css">
     <!-- Google fonts - Lato | Open Sans | Poppins | Roboto | Work Sans -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Lato|Open+Sans|Poppins|Work+Sans" rel="stylesheet">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PBhadoo/gdupload/src/main/resources/static/css/style.default.css" id="theme-stylesheet">
     <!-- Favicon-->
     <link rel="shortcut icon" href="//cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.14/icons/favicon-32x32.png">
     <!-- Font Awesome CDN-->
@@ -82,7 +82,7 @@
 			<img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="location.href = '/api/oauth/google/redirect'">
 			</li>
                         </c:when>
-                        <c:otherwise>	
+                        <c:otherwise>
                         <li class="nav-item"><a href="/api/oauth/google/redirect">Switch User</a></li>
                         </c:otherwise>
 	                </c:choose>
@@ -98,7 +98,7 @@
             <div class="sidebar-header d-flex align-items-center">
                 <c:choose>
                     <c:when test='${empty(user)}'>
-                        <div class="avatar"><img src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/img/guest.png" alt="Guest"
+                        <div class="avatar"><img src="https://cdn.jsdelivr.net/gh/PBhadoo/gdupload/src/main/resources/static/img/guest.png" alt="Guest"
                                                  class="img-fluid rounded-circle"></div>
                         <div class="title">
                             <p>Welcome</p>
@@ -135,13 +135,13 @@
     </div>
 </div>
 <!-- Javascript files-->
-<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/js/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/js/tether.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/js/jquery.cookie.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/js/jquery.validate.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/js/front.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/js/sticky-footer.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/PBhadoo/gdupload/src/main/resources/static/js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/PBhadoo/gdupload/src/main/resources/static/js/tether.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/PBhadoo/gdupload/src/main/resources/static/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/PBhadoo/gdupload/src/main/resources/static/js/jquery.cookie.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/PBhadoo/gdupload/src/main/resources/static/js/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/PBhadoo/gdupload/src/main/resources/static/js/front.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/PBhadoo/gdupload/src/main/resources/static/js/sticky-footer.js"></script>
 <jsp:invoke fragment="javascript"/>
 </body>
 </html>
